@@ -42,8 +42,8 @@
     </div>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 .footer img {
     width: 100px;
 }
-</style>
+</style> -->

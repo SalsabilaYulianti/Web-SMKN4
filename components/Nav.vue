@@ -9,7 +9,7 @@
           </div>
             <div class="col-lg-17 col-md-7 col-sm-8 col-8 text-light">
               <!-- <div class="col-lg-7"> -->
-                <h2>SMK Negri 4 Tasikmalaya</h2>
+                <h2>SMK Negeri 4 Tasikmalaya</h2>
                 <address>Jl Depok Kel. Sukamenak Kec. Purbaratu 
                   Kota Tasikmalaya</address>
             </div>

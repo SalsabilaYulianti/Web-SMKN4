@@ -1,13 +1,13 @@
 <template>
   <div>
 
+    <Header />
+
       <Nav />
-
-      <Header />
-
-      <Foot />
 
       <slot />
       
+
+      <Foot />
   </div>
 </template>

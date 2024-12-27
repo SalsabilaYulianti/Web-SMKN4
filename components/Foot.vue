@@ -1,15 +1,12 @@
 <template>
-    <div class="fixed-bottom bg-light">
-
-
-        
-        <!-- <div class="row footer p-4 mt-5">
+    <div class="bottom bg-light">
+        <div class="row footer p-4 mt-5">
             <div class="col-lg-1">
                 <img src="../asset/logo.png" alt="img-logo" class="logo">
             </div>
             <div class="col-lg-3">
-                <h3>Kiana Cake and Cookies</h3>
-                <h5>Cake for every moment</h5>
+                <h3>SMK NEGERI 4</h3>
+                <h5>KOTA TASIKMALAYA</h5>
             </div>
             <div class="col-lg-4">
                 <h4 class="address">Alamat</h4>
@@ -38,12 +35,12 @@
                     </div>
                 </div>                  
             </div>
-        </div> -->
-    </div>
+        </div>
+</div>
 </template>
 
-<!-- <style scoped>
+<style scoped>
 .footer img {
     width: 100px;
 }
-</style> -->
+</style>

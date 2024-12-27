@@ -1,55 +1,83 @@
-<template >
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <div class="col-lg-1 col-md-2 col-sm-3 col-3">
-            <img src="../asset/logo.png " alt="logo" class="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-            <div class="col-lg-17 col-md-7 col-sm-8 col-8 text-light">
-              <!-- <div class="col-lg-7"> -->
-                <h2>SMK Negeri 4 Tasikmalaya</h2>
-                <address>Jl Depok Kel. Sukamenak Kec. Purbaratu 
-                  Kota Tasikmalaya</address>
-            </div>
-            <div class="col-log-10 col-md-8 col-sm-8 col-8">
-              <img src="../asset/ig.png" alt="" class="ig">
-              <img src="../asset/fb.png" alt="" class="fb">
-              <img src="../asset/tt.png" alt="" class="tt">
-              <img src="../asset/ytb.png" alt="" class="ytb">
-            </div>
-            <!-- </div> -->
-        </div>
-    </nav>
+<template>
 
+  <nav class="navbar">
+    <ul>
+      <li class="nav-item">
+          <nuxt-link to="/" class="nav-link active" aria-current="page">Beranda</nuxt-link>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle">Profil</a>
+        <ul class="dropdown-menu">
+          <li><nuxt-link to="/profil/sejarah">Sejarah</nuxt-link></li>
+          <li><nuxt-link to="/profil/visiMisi">Visi Misi</nuxt-link></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="#">Ekstrakulikuler</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="#">Geleri</a>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+/* .navbar {
+  background-color: #D9D9D9;
+} */
+
 .navbar {
-  background-color: #211C63;
+font-family: "Inria Serif", serif;
+font-weight: 500;
+font-style: normal;
+margin: 0px;
+background-color:#D9D9D9;
+color: #000000;
+padding: 1em;
+text-align: center;
 }
 
-img {
-    width: 75px;
-    margin-left: 50px;
+.nav-item {
+display: inline-block;
+margin-right: 20px;
+position: relative;
 }
 
-.ig{
-  width: 50px;
+.dropdown-toggle {
+cursor: pointer;
 }
 
-address {
-  font-family: "Inria Serif", serif;
-  font-weight: 500;
-  font-style: normal;
-  margin: 0px;
+.dropdown-menu {
+background-color: #D9D9D9;
+border: none;
+display: none;
+padding: 10px;
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1;
 }
 
-h2 {
-  font-family: "Inria Serif", serif;
+.dropdown-menu li {
+display: block;
+margin-bottom: 10px;
+}
+
+.dropdown-menu a {
+color: black;
+text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+color: #ccc;
+}
+
+.nav-item:hover .dropdown-menu {
+display: block;
 }
 </style>
 

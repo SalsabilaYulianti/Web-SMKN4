@@ -3,7 +3,7 @@
     <div class="container-fluid cover p-0">
             <div class="row ">
                 <div class="col mt-5">
-                    <div class="text-center p-5 ">
+                    <div class="text-center p-5 mt-5 ">
                         <h1 class="text mt-5 fw-bold">SMK NEGERI 4</h1>
                         <h3 class="text mt-4 fw-bold">KOTA TASIKMALAYA</h3>
                     </div>
@@ -121,9 +121,8 @@
             </div>
           </div>
 
-
-             </div>
-  <!-- </div> -->
+          <!-- berita -->
+      </div>
 </template>
 
 <style scoped>

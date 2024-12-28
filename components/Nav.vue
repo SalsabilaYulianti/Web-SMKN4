@@ -8,13 +8,15 @@
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle">Profil</a>
         <ul class="dropdown-menu">
+          <li><nuxt-link to="/profil/identitasSekolah">Identitas Sekolah</nuxt-link></li>
           <li><nuxt-link to="/profil/sejarah">Sejarah</nuxt-link></li>
-          <li><nuxt-link to="/profil/visiMisi">Visi Misi</nuxt-link></li>
+          <li><nuxt-link to="/profil/visiMisi">Visi & Misi</nuxt-link></li>
+          
           <li><a href="#"></a></li>
         </ul>
       </li>
       <li class="nav-item">
-            <a class="nav-link" href="#">Ekstrakulikuler</a>
+        <nuxt-link to="/ekskul/ekstrakulikuler" class="nav-link active" aria-current="page">Ekstrakulikuler</nuxt-link>
       </li>
       <li class="nav-item">
             <a class="nav-link" href="#">Geleri</a>
@@ -38,7 +40,10 @@ margin: 0px;
 background-color:#D9D9D9;
 color: #000000;
 padding: 1em;
-text-align: center;
+justify-content: center ;
+font-size: 20px;
+/* text-align: center; */
+
 }
 
 .nav-item {

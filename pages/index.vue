@@ -46,10 +46,10 @@
               <div class="card mt-5 jr">
                 <div class="card-body mt-1">
                     <div class="row">
-                        <div class="col-4 text-center">
+                        <div class="col-5 text-center">
                             <img src="../asset/tkjt.png" alt="logo" class=" rounded-2">
                         </div>
-                        <div class="col-8">
+                        <div class="col-7">
                             <h5 class="fw-semibold text">Teknik Jaringan, Komputer dan Telekomunikasi (TJKT)</h5>
                             <p class="mt-2 text">135 Siswa</p>
                         </div>
@@ -61,11 +61,11 @@
               <div class="card mt-5 jr">
                 <div class="card-body mt-1">
                     <div class="row">
-                        <div class="col-4 text-center">
+                        <div class="col-5 text-center">
                             <img src="../asset/pplg1.png" alt="logo">
                         </div>
-                        <div class="col-8">
-                            <h5 class="fw-semibold text">Teknik Jaringan, Komputer dan Telekomunikasi (TJKT)</h5>
+                        <div class="col-7">
+                            <h5 class="fw-semibold text">Pengembangan Perangkat Lunak dan Gim (PPLG)</h5>
                             <p class="mt-2 text">135 Siswa</p>
                         </div>
                     </div>
@@ -76,11 +76,11 @@
               <div class="card mt-5 jr">
                 <div class="card-body mt-1">
                     <div class="row">
-                        <div class="col-4 text-center">
+                        <div class="col-5 text-center">
                             <img src="../asset/tbsm.png" alt="logo" class="rounded-3">
                         </div>
-                        <div class="col-8">
-                            <h5 class="fw-semibold text">Teknik Jaringan, Komputer dan Telekomunikasi (TJKT)</h5>
+                        <div class="col-7">
+                            <h5 class="fw-semibold text">Teknik dan Bisnis Sepeda Motor (TBSM)</h5>
                             <p class="mt-2 text">135 Siswa</p>
                         </div>
                     </div>
@@ -93,11 +93,11 @@
               <div class="card mt-5 jr">
                 <div class="card-body mt-1">
                     <div class="row">
-                        <div class="col-4 text-center">
+                        <div class="col-5 text-center">
                             <img src="../asset/dkv.png" alt="logo">
                         </div>
-                        <div class="col-8">
-                            <h5 class="fw-semibold text">Teknik Jaringan, Komputer dan Telekomunikasi (TJKT)</h5>
+                        <div class="col-7">
+                            <h5 class="fw-semibold text">Desain Komunikasi Visual (DKV)</h5>
                             <p class="mt-2 text">135 Siswa</p>
                         </div>
                     </div>
@@ -108,11 +108,11 @@
               <div class="card mt-5 jr">
                 <div class="card-body mt-1">
                     <div class="row">
-                        <div class="col-4 text-center">
+                        <div class="col-5 text-center">
                             <img src="../asset/toi.png" alt="logo">
                         </div>
-                        <div class="col-8">
-                            <h5 class="fw-semibold text">Teknik Jaringan, Komputer dan Telekomunikasi (TJKT)</h5>
+                        <div class="col-7">
+                            <h5 class="fw-semibold text">Teknik Otomasi Industri (TOI)</h5>
                             <p class="mt-2 text">135 Siswa</p>
                         </div>
                     </div>
@@ -122,6 +122,36 @@
           </div>
 
           <!-- berita -->
+           <div class="row mt-5">
+            <div class="col-4">
+              <div class="card mt-5">
+                  <img src="../asset/berita1.jpg" class="card-img-top img" style="width: 555px;" alt="img">
+                  <div class="card-body mb-5">
+                    <h5 class="card-title"><a href="https://radarindramayu.disway.id/read/653462/dam-jalin-kerjasama-dengan-smkn-4-tasikmalaya-terapkan-kurikulum-teknik-bisnis-sepeda-motor-honda#google_vignette"
+                      >DAM Jalin Kerjasama dengan SMKN 4 Tasikmalaya Terapkan Kurikulum Teknik & Bisnis Sepeda Motor Honda</a></h5>
+                  </div>
+               </div>
+            </div>
+            <div class="col-4">
+              <div class="card mt-5">
+                  <img src="../asset/berita1.jpg" class="card-img-top img" style="width: 555px;" alt="img">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="https://radarindramayu.disway.id/read/653462/dam-jalin-kerjasama-dengan-smkn-4-tasikmalaya-terapkan-kurikulum-teknik-bisnis-sepeda-motor-honda#google_vignette"
+                      >DAM Jalin Kerjasama dengan SMKN 4 Tasikmalaya Terapkan Kurikulum Teknik & Bisnis Sepeda Motor Honda</a></h5>
+                  </div>
+               </div>
+            </div>
+            <div class="col-4">
+              <div class="card mt-5">
+                  <img src="../asset/berita1.jpg" class="card-img-top img" style="width: 555px;" alt="img">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="https://radarindramayu.disway.id/read/653462/dam-jalin-kerjasama-dengan-smkn-4-tasikmalaya-terapkan-kurikulum-teknik-bisnis-sepeda-motor-honda#google_vignette"
+                      >DAM Jalin Kerjasama dengan SMKN 4 Tasikmalaya Terapkan Kurikulum Teknik & Bisnis Sepeda Motor Honda</a></h5>
+                  </div>
+               </div>
+            </div>
+            
+          </div>
       </div>
 </template>
 
@@ -161,16 +191,21 @@ p{
 .card{
   margin: auto;
   width: 95%;
-  height: 75%;
+  height: 85%;
 }
 
-.jurusan img {
-  width: 50%;
-  
-}
+/* .img{
+  width: 600px;
+  justify-content: center;
+} */
 
 .jr{
   background-color: #211C63;
+}
+
+a {
+  color: black !important;
+  text-decoration: none;
 }
 
 

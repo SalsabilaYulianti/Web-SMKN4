@@ -14,29 +14,21 @@
                 <hr>
                 <div class="d-flex align-items-center">
                     <a href="tel:++0265312059">
-                        <i class="im im-phone"></i>
+                        <i class="bi bi-telephone-fill"></i>
                         0265312059
-                        <br>
                     </a>
+                </div>
+                <div class="d-flex align-items-center">
                     <a href="mailto:info@smkn4-tsm.sch.id" class="d-flex ">
-                        <i class="im im-mail"></i>
+                        <i class="bi bi-envelope-fill"></i>
                         info@smkn4-tsm.sch.id
-                        <br>
                     </a>
-
-
-
-
-                        <!-- <i class="bi bi-telephone"></i>
-                        <h6>+62265312059</h6>
-                        <i class="bi bi-envelope"></i>
-                        <h6>info@smkn4-tsm.sch.id</h6>   -->
                 </div>
             </div>
             <div class="col-lg-4" >
                 <h4>Link Eksternal</h4>
                 <hr>
-                <div class="socialmedia mt">
+                <div class="socialmedia">
                     <ul class="lain">
                             <li class="list-group-item"><a href="https://www.kemdikbud.go.id/" target="_blank">Kemdikbud</a></li>
                             <li class="list-group-item"><a href="https://dapo.dikdasmen.kemdikbud.go.id/" target="_blank">Dapodiknasmen</a></li>

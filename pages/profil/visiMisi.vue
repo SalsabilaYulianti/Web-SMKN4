@@ -6,7 +6,7 @@
       </h3>
     </nav>
   <!-- <div class="row"> -->
-    <div class="col-10">
+    <div class="col-10 visi">
       <div class=" card w-75 mt-5 ">
         <div class="card-body ">
           <h5 class="card-title ">VISI</h5>
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <div class="col-10">
+    <div class="col-10 misi">
       <div class="card w-75 mt-5 ">
         <div class="card-body">
           <h5 class="card-title">MISI</h5>
@@ -64,6 +64,10 @@ font-size: 20px;
   font-weight: 500;
   font-style: normal;
   text-align: center;
+}
+
+.visi, .misi{
+  margin: auto;
 }
 
 .card{

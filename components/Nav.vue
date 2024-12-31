@@ -19,7 +19,10 @@
         <nuxt-link to="/ekskul/ekstrakulikuler" class="nav-link active" aria-current="page">Ekstrakulikuler</nuxt-link>
       </li>
       <li class="nav-item">
-            <a class="nav-link" href="#">Geleri</a>
+        <nuxt-link to="/gelery/" class="nav-link active" aria-current="page">Galery</nuxt-link>
+      </li>
+      <li class="nav-item">
+        <nuxt-link to="/kontak/index" class="nav-link active" aria-current="page">Kontak Kami</nuxt-link>
       </li>
     </ul>
   </nav>

@@ -5,7 +5,7 @@
           EKSTRAKULIKULER
         </h3>
     </nav>
-    <div class="row ">
+    <div class="row mt-5">
       
         <div class="card m-5" style="width: 18rem;">
             <img src="../../asset/paskibra.png" class="card-img-top" alt="img">
@@ -119,6 +119,9 @@ font-size: 20px;
   border: 2px solid #211C63;
 }
 
+.row{
+  justify-content: center;
+}
 /* .card{
   margin: auto;
   width: 95%;
